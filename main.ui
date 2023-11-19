@@ -39,10 +39,7 @@
      <enum>QAbstractItemView::ScrollPerItem</enum>
     </property>
     <property name="showGrid">
-     <bool>true</bool>
-    </property>
-    <property name="gridStyle">
-     <enum>Qt::SolidLine</enum>
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label">
@@ -66,8 +63,24 @@
     <property name="alignment">
      <set>Qt::AlignCenter</set>
     </property>
-    <property name="wordWrap">
-     <bool>false</bool>
+   </widget>
+   <widget class="QPushButton" name="add_button">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>380</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Добавить своё кофе.</string>
     </property>
    </widget>
   </widget>
